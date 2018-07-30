@@ -1,0 +1,21 @@
+hash: e27deee56fa34502b0d47a639ceedabc9c924358d6556149095a74f54ab22e2e
+updated: 2018-07-30T18:14:23.118111+08:00
+imports:
+- name: github.com/gogo/protobuf
+  version: 646de4defe615515307edb01cfa31b0163afa83a
+  subpackages:
+  - gogoproto
+  - proto
+  - protoc-gen-gogo/descriptor
+- name: github.com/nats-io/go-nats
+  version: ff578ff05d4180a259da6d729af7b55285d24b78
+  subpackages:
+  - encoders/builtin
+  - util
+- name: github.com/nats-io/go-nats-streaming
+  version: e15a53f85e4932540600a16b56f6c4f65f58176f
+  subpackages:
+  - pb
+- name: github.com/nats-io/nuid
+  version: 3024a71c3cbe30667286099921591e6fcc328230
+testImports: []
